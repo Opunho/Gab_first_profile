@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Source+Code+Pro:wght@200;500&display=swap');
+
+
+div {
+  display: block;
+}
+
+#top-header{
+  color: black;
+  background-color: #D6E6F2;
+  padding: none;
+  margin: 10px 0px;
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #B9D7EA;
+  text-align: center;
+}
+
+#description {
+  color: black;
+  background-color: #D6E6F2;
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #B9D7EA;
+}
+
+#profile{
+  background-color: #D6E6F2;
+  padding: 10;
+  border-radius: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 500ms linear;
+}
+
+#profile:hover{
+  transform: scale(1.2);
+}
+
+.button{
+  background-color:#FDFDFD;
+	border-radius:7px;
+	border:1px solid #F0F5F9;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family: arial;
+	font-size:17px;
+	padding:16px 31px;
+  margin: 10px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #F0F5F9;
+  transition: 500ms linear;
+}
+.button:hover {
+  color: beige;
+	background-color:#FF0B55;
+  transform: scale(1.1);
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+.container{
+  background-color: white;
+  border-radius: 5px;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+
+.top-card{
+  background-color: white;
+  border-radius: 5px;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+
+.card{
+  color: black;
+  background-color: #FDFDFD;
+  box-shadow: 1px 1px 1px #F0F5F9;
+  padding: 30px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+
+#social-media {
+  background-color: #D6E6F2;
+  box-shadow: 1px 1px 1px #B9D7EA;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+}
+
+.social-icon {
+    color: black;
+    display: inline-block;
+    transition: 500ms linear;
+}
+
+.social-icon:hover {
+  color: #F85F73;
+  transform: scale(2);
+}
+
+li {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 960px) {
+  margin-left: auto;
+  margin-right: auto;
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  margin-left: auto;
+  margin-right: auto;
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  margin-left: auto;
+  margin-right: auto;
+  .container {
+    width: 300px;
+  }
+}
